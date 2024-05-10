@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: #00579D;
+}
+.contato{
+    text-decoration: none;
+    align-self: center;
+    font-size: 50px;
+    color: black;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 19%;
+}
+.page1{
+    font-size: 40px;
+   
+}
+.page2{
+    font-size: 40px;
+    
+}
+.page3{
+    font-size: 30.5px;
+    
+}
+.page4{
+    font-size: 28.5px;
+    
+}
+.page1, .page2, .page3, .page4{
+    border: 2px solid black;
+    padding: 110px;
+    border-radius: 20px;
+    background-color: #00579D;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    color: black;
+}
+.page1:hover, .page2:hover, .page3:hover, .page4:hover{
+    transform: scale(1.15);
+    transition: 0.7s ease;
+}
+body{
+    padding-bottom: 500px;
+    background-image: url(/atendimento-campo4-0.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); 
+    z-index: -1; 
+}
+
+
