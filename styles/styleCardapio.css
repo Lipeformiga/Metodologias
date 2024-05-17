@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    color: white;
+    background-color: #00579d;
+    padding: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    margin-right: 1100px; 
+}
+
+body {
+    background-color: cornsilk;
+    min-height: 100vh; /* Garante que o corpo tenha no mínimo 100% da altura da viewport */
+    display: flex; /* Permite que o conteúdo se estenda por toda a altura da página */
+    flex-direction: column; /* Coloca os itens um abaixo do outro */
+}
+
+.container {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1; /* Faz com que o container ocupe o restante do espaço disponível na coluna */
+}
+
+.foto {
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-bottom: 60px;
+}
+
+.lista {
+    width: 50%;
+    padding-right: 400px;
+    padding-bottom: 200px;
+    padding-top: 150px;
+}
+
+.borda {
+    border: 6px solid #00579d;
+    border-radius: 30px;
+}
+
+.dia {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 30px;
+    background-color: #00579d;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    background-color: #00579d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 0 0 8px 8px;
+    margin-top: auto; /* Força o footer a ficar na parte inferior da página */
+    width:100%;
+}
+
+.Qr {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+    padding-left: 80px;
+}
