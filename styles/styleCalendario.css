@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    color: rgb(43, 43, 43);
+    
+    font-family: 'Mukta';
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: var(--variavelCorAzul);
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 450px;
+}
+
+.btnHeader {
+    text-decoration: none;
+    align-self: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+div {
+    padding: 3rem 3rem;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+}
+
+.x {
+    background-color: rgb(40, 109, 173);
+}
+
+.x h1 {
+    background-color: rgb(40, 109, 173);
+}
+
+.yellow {
+    background-color: rgb(212, 195, 95);
+}
+
+.yellow h1 {
+    background-color: rgb(212, 195, 95);
+    color: white;
+}
+
+section {
+    padding: 2rem 2rem;
+    text-align: center; 
+    justify-content: center;   
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.legendas h2{
+    background-color: rgb(34, 125, 209);
+    color: aliceblue;
+    padding: 3rem;
+    font-size: 3rem;
+    flex: 1;
+}
+
+.geral {
+    display: flex;
+    flex-direction: row;
+}
+
+.blue {
+    background-color: rgb(34, 125, 209);
+}
+
+.blue h1 {
+    background-color: rgb(34, 125, 209);
+    color: rgb(249, 252, 255);
+}
+
+.green {
+    background-color: rgb(82, 163, 136);
+}
+
+.green h1 {
+    background-color: rgb(82, 163, 136);
+    color: rgb(247, 251, 255);
+}
+
+.container5 {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 1rem;
+    background-color: rgb(40, 109, 173);
+    flex: 2;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgb(34, 125, 209);
+}
+.cor{
+    background-color: rgb(40, 109, 173);
+    border-radius:1rem;
+    border: 2px solid rgb(73, 73, 73);
+
+    padding: 2rem;
+}
+p{
+    font-size: 0.8rem;
+}
+.titulo{
+    padding: 4rem;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    background-color: rgb(40, 109, 173);
+    
+}
+.box1{
+    color: rgb(39, 39, 39);
+    display: flex;
+    font-size: 35px;
+    justify-content: left;
+    align-items: center;
+        
+    padding: 1rem 0rem 1rem 3rem;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.box2{
+    color: rgb(39, 39, 39);
+    display: flex;
+    font-size: 35px;
+    justify-content: center ;
+    align-items: center;
+    color: white;
+    border: 2px solid rgb(53, 52, 52);
+    border-radius: 1rem;
+    padding: 1rem 0rem 1rem 3rem;
+    background-color: rgb(40, 109, 173);
+    height: 100px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.box3{
+    color: rgb(39, 39, 39);
+    display: flex;
+    font-size: 35px;
+    border: 2px solid rgb(53, 52, 52);
+    border-radius: 1rem;
+    justify-content: center ;
+    align-items: center;
+    color: white;
+
+    padding: 1rem 0rem 1rem 3rem;
+    background-color: rgb(82, 163, 136);
+    height: 100px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.box4{
+    color: rgb(39, 39, 39);
+    display: flex;
+    font-size: 35px;
+    border: 2px solid rgb(53, 52, 52);
+    border-radius: 1rem;
+    justify-content: center ;
+    align-items: center;
+    color: white;
+    padding: 1rem 0rem 1rem 3rem;
+    background-color: rgb(212, 195, 95);
+    height: 100px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.box{
+    color: rgb(39, 39, 39);
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.legenda1{
+    margin: 0.5rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    
+    gap: 20px;
+}
+.cor1{
+    background-color: rgb(82, 163, 136);
+    border-radius:1rem;
+    border: 2px solid rgb(73, 73, 73);
+
+    padding: 2rem;
+}
+.cor2{
+    background-color: rgb(212, 195, 95);
+    border-radius:1rem;
+    border: 2px solid rgb(73, 73, 73);
+    padding: 2rem;
+}
+.texto{
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 1.5rem;
+    display:flex;
+    background-color: rgba(0, 255, 255, 0);
+    align-items: center;
+}
+.legendas{
+    background-color: rgb(33, 75, 114);
+    color: aliceblue;
+}
+.legendas{
+    background-color: rgb(33, 75, 114);
+}
+
+/* Hover effect for all squares except those with class .x */
+.container5 div:not(.x), .container5 section:not(.x) {
+    transition: transform 0s, box-shadow 0.5s;
+    
+}
+
+.container5 div:not(.x):hover, .container5 section:not(.x):hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}

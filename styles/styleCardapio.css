@@ -2,20 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    zoom: 0.94;
 }
 
-.head {
-    color: white;
-    background-color: #00579d;
-    padding: 35px;
-    text-align: center;
-    display: flex;
-    align-items: center; 
-}
-
-.logo {
-    margin-right: 1100px; 
-}
 
 body {
     background-color: cornsilk;
@@ -24,7 +13,7 @@ body {
     flex-direction: column; /* Coloca os itens um abaixo do outro */
 }
 
-.container {
+.container1 {
     padding-top: 25px;
     display: flex;
     flex-wrap: wrap;

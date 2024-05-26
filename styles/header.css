@@ -1,0 +1,30 @@
+:root {
+    --variavelCorAzul: #00579D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: var(--variavelCorAzul);
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 450px;
+}
+
+.btnHeader {
+    text-decoration: none;
+    align-self: center;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.856);
+}

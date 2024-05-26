@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cornsilk;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.noticia1 {
+    margin-left:950px;
+    width: 100%;
+    max-width: 600px; /* Aumentei a largura máxima */
+    background-color: #f0f0f0;
+    text-align: center;
+    background-size: cover;
+    background-image:url(/img/Eolica.png) ;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 70px;
+    padding-left: 70px;
+}
+
+.linha {
+    width: 80%;
+    height: 2px;
+    background-color:#00579d;
+    margin: 20px auto;
+}
+
+
+.noticia2{
+
+    width: 100%;
+    max-width: 600px;
+    margin-left: 300px;
+    background-color: #f0f0f0;
+    text-align: center;
+    background-size: cover;
+    background-image:url(/img/BomJesus2.png) ;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 70px;
+    padding-left: 70px;
+}
+
+.texto {
+    margin-bottom: 10px;
+}
+.texto p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.linha {
+    width: 80%;
+    height: 2px;
+    background-color: #00579d;
+    margin: 20px auto;
+}
+
+.noticia1 {
+    position: relative;
+}
+
+.noticia1::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -362px;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #00579d;
+    border-radius: 50%;
+}
+
+.noticia1 .small-ball {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -440px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #00579d;
+    border-radius: 50%;
+}
+
+.noticia1::after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: -420px;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: #00579d;
+    border-radius: 50%;
+}
+
+
+
+.Qr {
+    margin-left: 1200px;
+    margin-top: -180px;
+    position: relative;
+}
+
+.footer {
+    background-color: #00579d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
