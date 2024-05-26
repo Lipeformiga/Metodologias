@@ -1,3 +1,7 @@
+:root {
+    --variavelCorAzul: #00579D;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -59,4 +63,12 @@ body {
 }
 #teste{
     order: 2;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #01335c;
+    color: white;
+    padding: 20px 0px;
 }
